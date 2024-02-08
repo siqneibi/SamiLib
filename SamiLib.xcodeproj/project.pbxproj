@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF8B4372B73D0FA009E39C4 /* SamiLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = EDF8B4362B73D0FA009E39C4 /* SamiLib.docc */; };
+		EDF8B43D2B73D0FB009E39C4 /* SamiLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF8B4322B73D0FA009E39C4 /* SamiLib.framework */; };
+		EDF8B4422B73D0FB009E39C4 /* SamiLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8B4412B73D0FB009E39C4 /* SamiLibTests.swift */; };
+		EDF8B4432B73D0FB009E39C4 /* SamiLib.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF8B4352B73D0FA009E39C4 /* SamiLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF8B4532B73D1D8009E39C4 /* SamiLibExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8B4522B73D1D8009E39C4 /* SamiLibExamplesApp.swift */; };
+		EDF8B4552B73D1D8009E39C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8B4542B73D1D8009E39C4 /* ContentView.swift */; };
+		EDF8B4572B73D1DB009E39C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF8B4562B73D1DB009E39C4 /* Assets.xcassets */; };
+		EDF8B45A2B73D1DB009E39C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF8B4592B73D1DB009E39C4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF8B43E2B73D0FB009E39C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF8B4292B73D0FA009E39C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF8B4312B73D0FA009E39C4;
+			remoteInfo = SamiLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDF8B4322B73D0FA009E39C4 /* SamiLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SamiLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF8B4352B73D0FA009E39C4 /* SamiLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamiLib.h; sourceTree = "<group>"; };
+		EDF8B4362B73D0FA009E39C4 /* SamiLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SamiLib.docc; sourceTree = "<group>"; };
+		EDF8B43C2B73D0FB009E39C4 /* SamiLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamiLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF8B4412B73D0FB009E39C4 /* SamiLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamiLibTests.swift; sourceTree = "<group>"; };
+		EDF8B4502B73D1D8009E39C4 /* SamiLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamiLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF8B4522B73D1D8009E39C4 /* SamiLibExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamiLibExamplesApp.swift; sourceTree = "<group>"; };
+		EDF8B4542B73D1D8009E39C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDF8B4562B73D1DB009E39C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF8B4592B73D1DB009E39C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF8B42F2B73D0FA009E39C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF8B4392B73D0FA009E39C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF8B43D2B73D0FB009E39C4 /* SamiLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF8B44D2B73D1D8009E39C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF8B4282B73D0FA009E39C4 = {
+			isa = PBXGroup;
+			children = (
+				EDF8B4342B73D0FA009E39C4 /* SamiLib */,
+				EDF8B4402B73D0FB009E39C4 /* SamiLibTests */,
+				EDF8B4512B73D1D8009E39C4 /* SamiLibExamples */,
+				EDF8B4332B73D0FA009E39C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF8B4332B73D0FA009E39C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF8B4322B73D0FA009E39C4 /* SamiLib.framework */,
+				EDF8B43C2B73D0FB009E39C4 /* SamiLibTests.xctest */,
+				EDF8B4502B73D1D8009E39C4 /* SamiLibExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF8B4342B73D0FA009E39C4 /* SamiLib */ = {
+			isa = PBXGroup;
+			children = (
+				EDF8B4352B73D0FA009E39C4 /* SamiLib.h */,
+				EDF8B4362B73D0FA009E39C4 /* SamiLib.docc */,
+			);
+			path = SamiLib;
+			sourceTree = "<group>";
+		};
+		EDF8B4402B73D0FB009E39C4 /* SamiLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF8B4412B73D0FB009E39C4 /* SamiLibTests.swift */,
+			);
+			path = SamiLibTests;
+			sourceTree = "<group>";
+		};
+		EDF8B4512B73D1D8009E39C4 /* SamiLibExamples */ = {
+			isa = PBXGroup;
+			children = (
+				EDF8B4522B73D1D8009E39C4 /* SamiLibExamplesApp.swift */,
+				EDF8B4542B73D1D8009E39C4 /* ContentView.swift */,
+				EDF8B4562B73D1DB009E39C4 /* Assets.xcassets */,
+				EDF8B4582B73D1DB009E39C4 /* Preview Content */,
+			);
+			path = SamiLibExamples;
+			sourceTree = "<group>";
+		};
+		EDF8B4582B73D1DB009E39C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDF8B4592B73D1DB009E39C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EDF8B42D2B73D0FA009E39C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF8B4432B73D0FB009E39C4 /* SamiLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EDF8B4312B73D0FA009E39C4 /* SamiLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF8B4462B73D0FB009E39C4 /* Build configuration list for PBXNativeTarget "SamiLib" */;
+			buildPhases = (
+				EDF8B42D2B73D0FA009E39C4 /* Headers */,
+				EDF8B42E2B73D0FA009E39C4 /* Sources */,
+				EDF8B42F2B73D0FA009E39C4 /* Frameworks */,
+				EDF8B4302B73D0FA009E39C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamiLib;
+			productName = SamiLib;
+			productReference = EDF8B4322B73D0FA009E39C4 /* SamiLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDF8B43B2B73D0FA009E39C4 /* SamiLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF8B4492B73D0FB009E39C4 /* Build configuration list for PBXNativeTarget "SamiLibTests" */;
+			buildPhases = (
+				EDF8B4382B73D0FA009E39C4 /* Sources */,
+				EDF8B4392B73D0FA009E39C4 /* Frameworks */,
+				EDF8B43A2B73D0FA009E39C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF8B43F2B73D0FB009E39C4 /* PBXTargetDependency */,
+			);
+			name = SamiLibTests;
+			productName = SamiLibTests;
+			productReference = EDF8B43C2B73D0FB009E39C4 /* SamiLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF8B44F2B73D1D8009E39C4 /* SamiLibExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF8B45D2B73D1DB009E39C4 /* Build configuration list for PBXNativeTarget "SamiLibExamples" */;
+			buildPhases = (
+				EDF8B44C2B73D1D8009E39C4 /* Sources */,
+				EDF8B44D2B73D1D8009E39C4 /* Frameworks */,
+				EDF8B44E2B73D1D8009E39C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamiLibExamples;
+			productName = SamiLibExamples;
+			productReference = EDF8B4502B73D1D8009E39C4 /* SamiLibExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF8B4292B73D0FA009E39C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EDF8B4312B73D0FA009E39C4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EDF8B43B2B73D0FA009E39C4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EDF8B44F2B73D1D8009E39C4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = EDF8B42C2B73D0FA009E39C4 /* Build configuration list for PBXProject "SamiLib" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF8B4282B73D0FA009E39C4;
+			productRefGroup = EDF8B4332B73D0FA009E39C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF8B4312B73D0FA009E39C4 /* SamiLib */,
+				EDF8B43B2B73D0FA009E39C4 /* SamiLibTests */,
+				EDF8B44F2B73D1D8009E39C4 /* SamiLibExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF8B4302B73D0FA009E39C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF8B43A2B73D0FA009E39C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF8B44E2B73D1D8009E39C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF8B45A2B73D1DB009E39C4 /* Preview Assets.xcassets in Resources */,
+				EDF8B4572B73D1DB009E39C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF8B42E2B73D0FA009E39C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF8B4372B73D0FA009E39C4 /* SamiLib.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF8B4382B73D0FA009E39C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF8B4422B73D0FB009E39C4 /* SamiLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF8B44C2B73D1D8009E39C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF8B4552B73D1D8009E39C4 /* ContentView.swift in Sources */,
+				EDF8B4532B73D1D8009E39C4 /* SamiLibExamplesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF8B43F2B73D0FB009E39C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF8B4312B73D0FA009E39C4 /* SamiLib */;
+			targetProxy = EDF8B43E2B73D0FB009E39C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDF8B4442B73D0FB009E39C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDF8B4452B73D0FB009E39C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDF8B4472B73D0FB009E39C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q2BC3927K3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sedco.SamiLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF8B4482B73D0FB009E39C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q2BC3927K3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sedco.SamiLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDF8B44A2B73D0FB009E39C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2BC3927K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sedco.SamiLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF8B44B2B73D0FB009E39C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2BC3927K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sedco.SamiLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDF8B45B2B73D1DB009E39C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SamiLibExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2BC3927K3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sedco.SamiLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF8B45C2B73D1DB009E39C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SamiLibExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2BC3927K3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.sedco.SamiLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF8B42C2B73D0FA009E39C4 /* Build configuration list for PBXProject "SamiLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF8B4442B73D0FB009E39C4 /* Debug */,
+				EDF8B4452B73D0FB009E39C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF8B4462B73D0FB009E39C4 /* Build configuration list for PBXNativeTarget "SamiLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF8B4472B73D0FB009E39C4 /* Debug */,
+				EDF8B4482B73D0FB009E39C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF8B4492B73D0FB009E39C4 /* Build configuration list for PBXNativeTarget "SamiLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF8B44A2B73D0FB009E39C4 /* Debug */,
+				EDF8B44B2B73D0FB009E39C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF8B45D2B73D1DB009E39C4 /* Build configuration list for PBXNativeTarget "SamiLibExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF8B45B2B73D1DB009E39C4 /* Debug */,
+				EDF8B45C2B73D1DB009E39C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF8B4292B73D0FA009E39C4 /* Project object */;
+}
